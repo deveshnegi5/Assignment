@@ -1,0 +1,24 @@
+
+<div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>UserId</th>
+            <th>Id</th>
+            <th>Body</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let dataItem of UserList">
+            <td>{{dataItem.userId}}</td>
+            <td>{{dataItem.id}}</td>
+            <td>{{dataItem.body}}</td>
+            <td>{{dataItem.title}}</td>
+    
+          </tr>
+        </tbody>
+    
+      </table>
+
+</div>
